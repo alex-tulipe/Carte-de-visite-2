@@ -1,0 +1,131 @@
+
+
+/*RESET CSS   */
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*STYLE DU CONTAINER   */
+
+.container {
+    background: linear-gradient(rgb(108, 221, 230), rgb(168, 53, 168));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*STYLE CARD   */
+
+.container .card {
+    background: rgb(253, 253, 253);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+/*STRUCTURE IMAGE   */
+
+.container .card .box-image {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+/*DIMENSIONS IMAGE   */
+
+.container .card img{
+    margin-left: 50px;
+    max-width: 370px;
+}
+
+/*DIMENSIONS BOITE TEXTE   */
+
+.container .card .texte {
+        margin-left: 100px;
+        max-width: 500px;
+    
+}
+
+/*STYLE TITRE NOM/PRENOM  */
+
+.container .card .texte h1{
+    font-family: 'Sigmar One', cursive;
+    font-size: 40px;
+    color: rgb(61, 61, 61);
+}
+
+/*STYLE TITRE PROFESSION   */
+
+.container .card .texte h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: rgb(160, 160, 160);
+
+}
+
+/*STYLE LISTE CONTACT   */
+
+.container .card .texte ul{
+    list-style: none;
+    color: rgb(94, 92, 92);
+    font-weight: 300;
+    font-size: 13px;
+}
+
+/*MARGE TEXTE CONTACT   */
+
+.container .card .texte .contact li{
+    margin-bottom: 10px;
+}
+
+/*STYLE ICONES CONTACT   */
+
+.container .card .texte .contact li i{
+    margin-right: 10px;
+    color: rgb(230, 42, 204);
+    font-size: 30px;
+}
+
+/*STRUCTURE RESEAUX SOCIAUX   */
+
+.container .card .texte .social-media{
+    display: flex;
+    margin-top: 30px;
+}
+
+/*MARGE RESEAUX SOCIAUX   */
+
+.container .card .texte .social-media li {
+    margin-right: 15px;
+  
+}
+
+/*STYLE ICONES RESEAUX SOCIAUX  */
+
+.container .card .texte .social-media li i{
+    margin-right: ;
+    color: rgb(253, 162, 230); 
+    font-size: 30px;
+    transition: 0.3s;
+    
+}
+
+/*HOVER ICONES RESEAUX SOCIAUX  */
+
+.container .card .texte .social-media li i:hover {
+    color: rgb(108, 68, 173);
+    transition: 0.3s;
+    transform: scale(1.3s);
+
+}
